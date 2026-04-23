@@ -1,0 +1,40 @@
+/*
+   Midterm Quiz #1
+   Created by: [Your Name]
+   Fundamentals of Programming
+   Class: CC 1101
+   Created on: [Insert Date]
+*/
+
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    float L, W, A;
+    int G;
+
+    l= 0;
+    w = 0;
+    a = 0;
+    g = 0;
+
+    system("cls");
+
+    // input phase
+    printf("Enter the length: ");
+    scanf("%f", &l);
+
+    printf("Enter the width: ");
+    scanf("%f", &l);
+
+    // process phase
+    a = l * w;
+    g = ceil(a / 350);
+
+    // output phase
+    printf("You will need to purchase %d gallons of paint to cover %.2f square feet.\n", g, a);
+
+    return 0;
+}
