@@ -1,0 +1,25 @@
+####  #### ####  #### #### # #### ####
+#     #  #     #  #     #  #            #      # #         #
+###    ###    ####  #            #      # #### ####
+#         #   #    #      # #             #     #          # #
+#         #      # #      # ####    #      #  #### ####
+
+#set
+
+fruits = {"apple", "banana", "orange"}
+
+#user search
+fruit = input("Search a fruit: ")
+#search found or not
+if fruit in fruits:
+    print(f"{fruit} is found")
+else:
+    print(f"{fruit} is not found")
+#fruits[0] = "manga"
+#fruits.append("manga")
+#fruits.remove("apple")
+#fruits.pop(0)
+#fruits.clear()
+
+#for fruit in fruits:
+#    print(fruit, end=" ")

@@ -1,0 +1,24 @@
+####  #### ####  #### #### # #### ####
+#     #  #     #  #     #  #            #      # #         #
+###    ###    ####  #            #      # #### ####
+#         #   #    #      # #             #     #          # #
+#         #      # #      # ####    #      #  #### ####
+
+#user name input
+name = input("Enter your name: ")
+#while loop errorhandler
+while name == "":
+    name = input("Enter your name: ")
+
+#user age
+age = int(input("Enter your age: "))
+#while loop cannot be 0
+while age == 0:
+    print("Your age cannot be zero")
+    age = int(input("Enter your age: "))
+
+#print
+print()
+print(f"Your name is {name}!")
+print(f"Your name is {age}")
+

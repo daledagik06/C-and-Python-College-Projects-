@@ -1,0 +1,18 @@
+####  #### ####  #### #### # #### ####
+#     #  #     #  #     #  #            #      # #         #
+###    ###    ####  #            #      # #### ####
+#         #   #    #      # #             #     #          # #
+#         #      # #      # ####    #      #  #### ####
+
+#List
+
+fruits = ["apple", "banana", "orange"]
+
+#fruits[0] = "manga"
+#fruits.append("manga")
+#fruits.remove("apple")
+#fruits.pop(0)
+#fruits.clear()
+
+for fruit in fruits:
+    print(fruit, end=" ")

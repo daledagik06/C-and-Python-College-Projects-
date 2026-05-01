@@ -1,0 +1,40 @@
+####  #### ####  #### #### # #### ####
+#     #  #     #  #     #  #            #      # #         #
+###    ###    ####  #            #      # #### ####
+#         #   #    #      # #             #     #          # #
+#         #      # #      # ####    #      #  #### ####
+
+
+#variables for age, boolean ticket an price tag
+user_age = int(input("Enter your age: "))
+have_ticket = False
+price = 10.00
+
+if user_age >= 60:
+    print("You are a senior citizen")
+    print(f"Your ticket cost is {price * 0.75}")
+elif user_age >=18:
+    print("You are an adult!")
+    print(f"Your ticket cost is {price}")
+elif user_age == 0:
+    print("You've just born")
+elif user_age <= 0:
+    print("You haven't been born yet!")
+else:
+    print("You are a child!")
+    print(f"Your ticket cost is {price * 0.5}")
+    
+if have_ticket:
+    print("You have a ticket, you may enter!")
+else:
+    print("You may not enter!")
+
+
+
+#conditionals for age & ticket price
+#conditionals for ticket
+
+
+
+
+
